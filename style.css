@@ -30,6 +30,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .hadith-container {
@@ -161,11 +162,7 @@ body > p {
   line-height: 0.9;
   font-family: DecoType Thuluth;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  right: 50%;
-  top: -10vh;
-  transform: translateX(50%);
+  inset: 0;
   z-index: -3;
   opacity: 0.075;
   text-align: center;
@@ -189,5 +186,9 @@ body > p {
     left: -80px;
     bottom: -50px;
     z-index: -1;
+  }
+
+  body > p {
+    display: none;
   }
 }
