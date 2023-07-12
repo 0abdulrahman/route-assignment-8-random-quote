@@ -189,6 +189,6 @@ body > p {
   }
 
   body > p {
-    display: none;
+    overflow: hidden;
   }
 }
